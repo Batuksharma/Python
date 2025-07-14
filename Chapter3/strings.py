@@ -12,3 +12,8 @@ print(name1.replace("Alertcode","Lifessentials"))
 
 name2 = "Alertcode"
 print(name1[1:8:2])
+
+first = 'Batuk'
+last = 'Sharma'
+message = f'{first} [{last}] is a coder'
+print(message)
