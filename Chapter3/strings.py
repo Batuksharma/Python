@@ -8,7 +8,11 @@ print(name.capitalize())  # only capitalises the initial letter of first word
 print(name.upper()) # converts all letters to upper case
 print(name.lower()) # converts to lower case
 print(name.strip()) # removes leading and trailing spaces
-
+print(name.lstrip()) # removes leading spaces
+print(name.rstrip()) # removes trailing spaces
+print(name.find("uk")) #returns the index of the first occurrence of the given string
+print("pro" in name) #checks whether the given string is present in the string
+print("pro" not in name) #checks whether the given string is not present in the string
 
 name1 = "Alertcode is a company"
 print(name1[1:5]) # prints the characters from index 1 to 5 (5 is excluded)
